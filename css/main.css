@@ -1,0 +1,103 @@
+/* Default style */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video {
+    border: 0; 
+    scroll-behavior: smooth;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup, footer, header, nav, section, audio, video{
+    display: block;
+}
+
+img{
+    max-width: 100%;
+}
+img::selection{
+    background: transparent;
+}
+img::-moz-selection{
+    background: transparent;
+}
+
+.clearFix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    font-size: 14px;
+    line-height: 22px;
+    color: #5e636b;
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-size-adjust: 100%; 
+    -moz-text-size-adjust:100%; 
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased; 
+    overflow-x: hidden; 
+    overflow-y:auto;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    clear: both;
+}
+
+header,
+footer,
+section{
+    float: left;
+    width: 100%;
+}
+
+section{
+    padding-top: 50px;
+}
+
+.main-header{
+    padding: 45px 0 40px;
+    background: rgb(255,78,0);
+    background: -moz-linear-gradient(90deg, rgba(255,78,0,1) 0%, rgba(255,139,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,78,0,1) 0%, rgba(255,139,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255,78,0,1) 0%, rgba(255,139,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4e00",endColorstr="#ff8b00",GradientType=1);
+}
+/* //End Default style */
+
+/* Welcome section style */
+.welcome-section{
+    padding-top: 80px;
+}
+.welcome-section h1,
+.feature-item-wrap,
+.content-thumb,
+.content{
+    float: left;
+    width: 50%;
+}
+
+.feature-item-wrap .feature-item-wrap{
+    padding-left: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.content-row{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.content-thumb{
+}
+
+
